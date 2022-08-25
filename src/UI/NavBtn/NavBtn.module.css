@@ -1,0 +1,7 @@
+.btn {
+  @apply relative text-xl rounded-full p-3 hover:bg-light-gray;
+}
+
+.bg__icon {
+  @apply absolute inline-flex rounded-full h-2 w-2 right-2 top-2;
+}

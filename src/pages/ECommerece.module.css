@@ -1,0 +1,67 @@
+.ecommerce__container {
+  @apply mt-12;
+}
+
+.ecom-earnings__box {
+  @apply flex flex-wrap lg:flex-nowrap justify-center;
+}
+
+.ecom-first__cols {
+  @apply bg-white dark:text-gray-200
+  dark:bg-secondary-dark-bg h-44 rounded-xl 
+  w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern 
+  bg-no-repeat bg-cover bg-center;
+}
+
+.first-cols__text {
+  @apply flex justify-between items-center;
+}
+
+.ecom-second__cols {
+  @apply flex m-3 flex-wrap justify-center gap-1 items-center;
+}
+
+.earning-data__box {
+  @apply bg-white dark:text-gray-200 dark:bg-secondary-dark-bg 
+  md:w-56 p-4 pt-9 rounded-2xl;
+}
+
+.icon__btn {
+  @apply text-2xl opacity-[85%] rounded-full p-4 
+  hover:drop-shadow-xl;
+}
+.revenue__box {
+  @apply flex gap-10 flex-wrap justify-center;
+}
+
+.revenue-content__box {
+  @apply bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 
+        p-4 rounded-2xl md:w-780;
+}
+
+.revenue__p1 {
+  @apply font-semibold text-xl;
+}
+.revenue__p2 {
+  @apply flex items-center gap-2 text-gray-600 hover:drop-shadow-xl;
+}
+.revenue__p3 {
+  @apply font-semibold text-xl;
+}
+
+.renvenue-heading__box {
+  @apply flex justify-between;
+}
+
+.heading__status {
+  @apply flex items-center gap-4;
+}
+
+.status__budget {
+  @apply flex items-center gap-2 text-green-400 
+  hover:drop-shadow-2xl;
+}
+
+.pointers__box {
+  @apply mt-10 flex gap-2 flex-wrap justify-center;
+}
